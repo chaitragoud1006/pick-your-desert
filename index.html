@@ -1,0 +1,182 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ff8a3d" />
+  <title>Pick Your Dessert</title>
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header / Hero -->
+  <header class="site-header" id="top" role="banner">
+    <div class="container hero">
+      <h1 class="hero__title">🍨 Pick Your Dessert</h1>
+      <p class="hero__subtitle">Click a card to jump to its recipe, ingredients, and a cute description.</p>
+      <nav class="hero__nav" aria-label="Primary">
+        <ul class="pill-nav">
+          <li><a href="#cake" class="pill">Cake</a></li>
+          <li><a href="#gulab" class="pill">Gulab Jamun</a></li>
+          <li><a href="#rasgulla" class="pill">Rasgulla</a></li>
+          <li><a href="#kalakhand" class="pill">Kalakhand</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Cards -->
+  <main id="main" class="container" role="main">
+    <section class="cards" aria-label="Dessert cards">
+      <a class="card" href="#cake">
+        <figure class="card__media">
+          <img src="cake.jpeg" alt="A delicious frosted cake" loading="lazy" />
+        </figure>
+        <div class="card__body">
+          <h2 class="card__title">Cake</h2>
+          <p class="card__text">Fluffy, festive, and crowd-pleasing.</p>
+        </div>
+      </a>
+
+      <a class="card" href="#gulab">
+        <figure class="card__media">
+          <img src="gulab-jamun-rasgulla-1.jpg" alt="Gulab Jamun in sugar syrup" loading="lazy" />
+        </figure>
+        <div class="card__body">
+          <h2 class="card__title">Gulab Jamun</h2>
+          <p class="card__text">Golden dumplings soaked in syrup.</p>
+        </div>
+      </a>
+
+      <a class="card" href="#rasgulla">
+        <figure class="card__media">
+          <img src="rasgulla.jpeg" alt="Spongy Rasgulla balls" loading="lazy" />
+        </figure>
+        <div class="card__body">
+          <h2 class="card__title">Rasgulla</h2>
+          <p class="card__text">Light, spongy, and syrupy bliss.</p>
+        </div>
+      </a>
+
+      <a class="card" href="#kalakhand">
+        <figure class="card__media">
+          <img src="maxresdefault.jpg" alt="Squares of creamy Kalakhand" loading="lazy" />
+        </figure>
+        <div class="card__body">
+          <h2 class="card__title">Kalakhand</h2>
+          <p class="card__text">Creamy, grainy, nut-topped delight.</p>
+        </div>
+      </a>
+    </section>
+
+    <!-- Detailed Sections -->
+    <section id="cake" class="dessert">
+      <div class="dessert__grid">
+        <figure class="dessert__media">
+          <img src="cake.jpeg " alt="Slice of chocolate cake" loading="lazy" />
+          <figcaption>Chocolate cake with rich frosting.</figcaption>
+        </figure>
+        <div class="dessert__content">
+          <h2>🍰 Cake</h2>
+          <p>A classic treat for celebrations. Moist crumb, smooth frosting, and infinite flavor combos.</p>
+          <h3>Ingredients</h3>
+          <ul class="ingredients">
+            <li>Flour</li>
+            <li>Sugar</li>
+            <li>Eggs</li>
+            <li>Butter</li>
+            <li>Cocoa / Vanilla</li>
+          </ul>
+          <a class="btn" href="#top">⬆ Back to top</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gulab" class="dessert">
+      <div class="dessert__grid">
+        <figure class="dessert__media">
+          <img src="gulab-jamun-rasgulla-1.jpg" alt="Gulab Jamun served in a bowl" loading="lazy" />
+          <figcaption>Soft dumplings in cardamom syrup.</figcaption>
+        </figure>
+        <div class="dessert__content">
+          <h2>🍯 Gulab Jamun</h2>
+          <p>Melt-in-the-mouth balls made with milk solids, fried gently and soaked in aromatic syrup.</p>
+          <h3>Ingredients</h3>
+          <ul class="ingredients">
+            <li>Milk powder / Khoya</li>
+            <li>Flour</li>
+            <li>Ghee</li>
+            <li>Sugar syrup</li>
+            <li>Cardamom &amp; rose water</li>
+          </ul>
+          <a class="btn" href="#top">⬆ Back to top</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="rasgulla" class="dessert">
+      <div class="dessert__grid">
+        <figure class="dessert__media">
+          <img src="maxresdefault.jpg" alt="White Rasgulla in syrup" loading="lazy" />
+          <figcaption>Spongy chenna balls in light syrup.</figcaption>
+        </figure>
+        <div class="dessert__content">
+          <h2>🥛 Rasgulla</h2>
+          <p>Delicate spheres made from curdled milk, pressure-simmered to airy perfection.</p>
+          <h3>Ingredients</h3>
+          <ul class="ingredients">
+            <li>Chenna (fresh paneer)</li>
+            <li>Sugar</li>
+            <li>Water</li>
+            <li>Lemon / Vinegar (to curdle)</li>
+            <li>Rose water (optional)</li>
+          </ul>
+          <a class="btn" href="#top">⬆ Back to top</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="kalakhand" class="dessert">
+      <div class="dessert__grid">
+        <figure class="dessert__media">
+          <img src="maxresdefault.jpg" alt="Kalakhand squares topped with pistachios" loading="lazy" />
+          <figcaption>Milk-based fudge with nuts.</figcaption>
+        </figure>
+        <div class="dessert__content">
+          <h2>🍬 Kalakhand</h2>
+          <p>Slow-reduced milk set into a fudgy, grainy sweet—simple ingredients, deep flavor.</p>
+          <h3>Ingredients</h3>
+          <ul class="ingredients">
+            <li>Full-fat milk / Paneer</li>
+            <li>Sugar</li>
+            <li>Cardamom</li>
+            <li>Pistachios / Almonds</li>
+            <li>Saffron (optional)</li>
+          </ul>
+          <a class="btn" href="#top">⬆ Back to top</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Sticky Back-to-Top (CSS only) -->
+  <a class="floating-top" href="#top" aria-label="Back to top">⬆</a>
+
+  <!-- Footer-->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer__inner">
+      
+      <nav aria-label="Footer">
+        <a href="#cake">Cake</a>
+        <a href="#gulab">Gulab Jamun</a>
+        <a href="#rasgulla">Rasgulla</a>
+        <a href="#kalakhand">Kalakhand</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
+
